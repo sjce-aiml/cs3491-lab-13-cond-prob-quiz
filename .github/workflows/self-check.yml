@@ -1,0 +1,17 @@
+name: Self-check
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    if: "!contains(github.event.head_commit.message, '[gradient-bot]')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Public tests, lint and report check (hidden tests run on the teacher's grader)
+        run: gradient-edu check | tee -a "$GITHUB_STEP_SUMMARY"
