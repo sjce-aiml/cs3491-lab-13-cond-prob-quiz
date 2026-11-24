@@ -4,11 +4,14 @@
 
 ▶️ **Watch first:** [Lab 13 walkthrough](https://www.youtube.com/@DrAnandharajan) · 📗 **Lesson & quiz:** [https://anandharajan.github.io/gradient-edu/#lab-13](https://anandharajan.github.io/gradient-edu/#lab-13)
 
+
 ## Your task
 Open `src/lab13.py` and implement every function marked `TODO`. Do **not** rename functions or
 change their parameters — the autograder calls them exactly as written.
 
 ## Steps
+
+> **No laptop setup needed:** in your repo click **Code → Codespaces → Create codespace** — VS Code opens in the browser with everything installed. Do steps 2–4 there and use the Source Control panel to commit & push.
 1. Install tools once: `pip install -r requirements.txt`
 2. Implement the functions, then run the public tests: `pytest -q` (or `gradient-edu check`)
 3. Fill in all four sections of `REPORT.md` in your own words (20+ words each)
