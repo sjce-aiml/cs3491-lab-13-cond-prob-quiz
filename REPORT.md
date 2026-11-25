@@ -1,6 +1,6 @@
 # Lab 13 Report – Conditional probability quiz app
 
-Name: <!-- your name -->  ·  Roll no: <!-- roll number -->
+Name: <!-- your name -->  ·  Roll no: <!-- your 12-digit register number, e.g. 212924106001 — this links your GitHub account to your marks -->
 
 ## Aim
 <!-- What does this experiment try to achieve? (20+ words) -->
